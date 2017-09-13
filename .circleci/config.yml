@@ -37,4 +37,4 @@ jobs:
         
       # run tests!
       # run: phpunit
-      - rum: php composer.phar create-project yiisoft/yii2-app-basic basic 2.0.12
+      - run: php composer.phar create-project yiisoft/yii2-app-basic basic 2.0.12
