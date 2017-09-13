@@ -38,5 +38,5 @@ jobs:
       # run tests!
       # run: phpunit
       - run: php /home/circleci/repo/composer global require "fxp/composer-asset-plugin:^1.2.0" 
-      - run: cp /home/circleci/repo/auth.json /home/circleci/.composer/auth.json
+      - run: php /home/circleci/repo/composer config --global --auth github-oauth.github.com 7b5caf63a36f014772f7d89187bdd0549e8ee87a
       - run: php /home/circleci/repo/composer create-project yiisoft/yii2-app-basic basic 2.0.12
