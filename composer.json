@@ -55,5 +55,10 @@
                 "config/web.php"
             ]
         }
+    },
+  "config": {
+    "github-oauth": {
+      "github.com": "<TOKEN>"
+      }
     }
 }
