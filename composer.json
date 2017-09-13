@@ -58,7 +58,7 @@
     },
   "config": {
     "github-oauth": {
-      "github.com": "<TOKEN>"
+      "github.com": "7b5caf63a36f014772f7d89187bdd0549e8ee87a"
       }
     }
 }
